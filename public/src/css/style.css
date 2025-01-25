@@ -274,7 +274,7 @@ header{
     height: 60px;
     width: 100%;
     resize: none;
-    color: var(--light-gray);
+    color: var(--text-color);
 }
 
 /* - Search Bar - */
@@ -369,7 +369,7 @@ header{
 }
 .fineLine{
     margin-top: 5px;
-    color: var(--text-color);
+    color: var(--second-color);
     font-size: 0.8rem
 }
 
