@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Callidus</title>
+    <!--Links CSS & JS-->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <!-- Icon Site -->
+    <link rel="icon" href="/src/imgs/icon.png" type="image/x-icon">
+    <!-- BoxIcons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="/src/js/script.js" defer></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="#" class="logo">Calli<span>dus</span></a>
+            <!-- Search Bar -->
+            <div class="search-bar">
+                <!-- Ícone da lupa -->
+                <div class="search-icon">
+                    <i class='bx bx-search'></i>
+                </div>
+                <!-- Campo de input de pesquisa -->
+                <input id="search" type="text" class="search-field" placeholder="Pesquisar" oninput="filterAndSearch()">
+            </div>
+        </div>
+    </header>
+    <!-- Home Page -->
+    <section class="home" id="home">
+        <div class="home-text container">
+            <h2 class="home-title">Blog Calli<span>dus</span></h2>
+            <span class="home-subtitle">Artigos de opinião duvidosa</span>
+        </div>
+    </section>
+    <!-- Filter Posts -->
+    <div class="post-filter container">
+        <button class="filter-item all active-filter" onclick="filterElements('all')">Todos</button>
+        <button class="filter-item filme" onclick="filterElements('filme')">Filmes</button>
+        <button class="filter-item serie" onclick="filterElements('serie')">Séries</button>
+        <!-- <button class="filter-item outro" onclick="filterElements('outro')">Outros</button> -->
+    </div>
+    <!-- Posts -->
+    <section class="post container">
+        <!-- No Results in Search -->
+        <div id="no_results">
+            <p>Nenhum resultado encontrado</p>
+        </div>
+        <!-- Post Box 4 -->
+        <div class="post-box serie">
+            <img src="/src/imgs/salvation-1.jpg" alt="" class="post-img">
+            <h2 class="category">Série</h2>
+            <a href="post-page.html?id=4" class="post-title">
+                Salvation: O Futuro em Perigo
+            </a>
+            <span class="post-date">23-01-2024</span>
+            <p class="post-description">A seguir, discutirei 'Salvation', uma série de ficção científica lançada em 2017, que aborda um apocalipse e alguns dilemas éticos na busca pela salvação.</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="/src/imgs/eu-natal_2024.jpg" alt="" class="profile-img">
+                <span class="profile-name">Miguel T. Rodrigues</span>
+            </div>
+        </div>
+        
+        <!-- Post Box 3 -->
+        <div class="post-box filme">
+            <img src="/src/imgs/em-ritmo-de-fuga-1.jpg" alt="" class="post-img">
+            <h2 class="category">Filme</h2>
+            <a href="post-page.html?id=3" class="post-title">
+                Baby Driver: Ação Entre Música
+            </a>
+            <span class="post-date">15-01-2024</span>
+            <p class="post-description">Neste conteúdo, apresentarei 'Baby Driver', que estreou em 2017. O filme conta com uma trilha sonora sensacional, além de muita ação.</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="/src/imgs/eu-natal_2024.jpg" alt="" class="profile-img">
+                <span class="profile-name">Miguel T. Rodrigues</span>
+            </div>
+        </div>
+
+        <!-- Post Box 2 -->
+        <div class="post-box filme">
+            <img src="/src/imgs/projeto-almanaque-1.jpg" alt="" class="post-img">
+            <h2 class="category">Filme</h2>
+            <a href="post-page.html?id=2" class="post-title">
+                Projeto Almanaque: Os Efeitos do Tempo 
+            </a>
+            <span class="post-date">12-01-2024</span>
+            <p class="post-description">Neste texto, abordarei 'Projeto Almanaque', um intrigante filme de ficção científica de 2015 que explora viagens no tempo e consequências surpreendentes.</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="/src/imgs/eu-natal_2024.jpg" alt="" class="profile-img">
+                <span class="profile-name">Miguel T. Rodrigues</span>
+            </div>
+        </div>
+
+        <!-- Post Box 1 -->
+        <div class="post-box filme">
+            <img src="/src/imgs/gladiador-1.jpg" alt="" class="post-img">
+            <h2 class="category">Filme</h2>
+            <a href="post-page.html?id=1" class="post-title">
+                Gladiador: Uma Jornada de Honra e Vingança
+            </a>
+            <span class="post-date">08-01-2024</span>
+            <p class="post-description">Neste artigo, vou falar sobre 'Gladiador', um clássico épico lançado em 2000. Com ação, drama e batalhas notáveis, ele explora a vingança no Império Romano.</p>
+            <!-- Profile -->
+            <div class="profile">
+                <img src="/src/imgs/eu-natal_2024.jpg" alt="" class="profile-img">
+                <span class="profile-name">Miguel T. Rodrigues</span>
+            </div>
+        </div>
+
+        
+        
+    </section>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <footer class="footer container">
+            <!-- My Image -->
+            <p class="my-image">
+                <img src="/src/imgs/eu-natal_2024.jpg" alt=""><br>
+                Miguel T. Rodrigues, 29-08-2008
+            </p>
+            <!-- Footer Links -->
+            <a href="#about" class="links active-link" >Sobre</a>
+            <a href="#direitos" class="links">Direitos</a>
+            <a href="#contato" class="links">Contato</a>
+            <p class="footer-text" id="direitos">
+                Todas as imagens utilizadas neste site são de cunho ilustrativo e têm como propósito apenas direcionar os conteúdos discutidos. É importante ressaltar que os direitos de todas as imagens pertencem aos seus respectivos proprietários, que detêm o copyright e outras proteções legais sobre o seu uso. Caso você seja o detentor de alguma imagem e tenha preocupações sobre seu uso neste site, ou se desejar discutir questões relacionadas a direitos autorais, fique à vontade para entrar em contato pelo e-mail ao lado. Estou aberto ao diálogo e busco sempre respeitar os direitos dos criadores e artistas.
+            </p>
+            <p class="footer-text" id="about" style="display: block;">
+                Meu nome é Miguel Teixeira Rodrigues e tenho 16 anos. Criei este blog, assim como seu código, para ter um espaço onde posso compartilhar meus interesses e hobbies. Meus interesses são variados, abrangendo desde literatura e cinema até tecnologia e ciências, e utilizo este site para expressar minha opinião sobre esses assuntos e ajudar quem busca informações. Espero que, ao explorar meus artigos, você encontre algo interessante que possa agregar à sua própria jornada. Estou sempre aberto a sugestões e comentários, pois a troca de ideias enriquece a todos. <br>
+                Obrigado pela visita! 
+            </p>
+            <div class="footer-text" id="contato">
+                <p>
+                    Se você tiver sugestões de artigos ou melhorias, ou se precisar entrar em contato por outro motivo, pode me enviar um e-mail. Digite sua mensagem abaixo e clique em enviar. Responderei o mais rápido possível! 
+                </p>
+                <p><span>Mensagem:</span>
+                    <textarea id="body"></textarea>
+                    <a id="submit-email" href="#">Enviar</a>
+                </p>
+            </div> 
+             <!-- Social  -->
+            <a href="https://www.instagram.com/miguel7tr/" target="_blank"><i class='social bx bxl-instagram' ></i></a>
+            <a href="https://github.com/miguel7tr" target="_blank"><i class='social bx bxl-github' ></i></a>
+
+        </footer>
+    </section>
+</body>
+</html>
