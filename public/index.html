@@ -6,11 +6,13 @@
     <title>Blog Callidus</title>
     <!--Links CSS & JS-->
     <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <script src="/src/js/script.js" defer></script>
+    <script src="/src/js/main.js" defer></script>
     <!-- Icon Site -->
     <link rel="icon" href="/src/imgs/icon.png" type="image/x-icon">
     <!-- BoxIcons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="/src/js/script.js" defer></script>
     <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-WMH53GJ184"></script>      
 </head>
@@ -39,6 +41,11 @@
             <span class="home-subtitle">Artigos de opinião duvidosa</span>
         </div>
     </section>
+    <!-- Cookies Popup -->
+    <div class="cookie-popup hide" id="cookie-popup">
+        <p>Este site utiliza cookies para melhorar sua experiência. Ao continuar navegando, você concorda com isso.</p>
+        <button class="cookie-button" id="aceitar-cookies">Entendi</button>
+    </div>
     <!-- Filter Posts -->
     <div class="post-filter container">
         <button class="filter-item all active-filter" onclick="filterElements('all')">Todos</button>
@@ -243,8 +250,6 @@
                 <span class="profile-name">Miguel T. Rodrigues</span>
             </div>
         </div>
-
-        
         
     </section>
     
@@ -259,13 +264,21 @@
             <!-- Footer Links -->
             <a href="#about" class="links active-link" >Sobre</a>
             <a href="#direitos" class="links">Direitos</a>
+            <a href="#politicasDePrivacidade" class="links">Política de Privacidade</a>
+            <a href="#termosDeUso" class="links">Termos de Uso</a>
             <a href="#contato" class="links">Contato</a>
-            <p class="footer-text" id="direitos">
-                Todas as imagens utilizadas neste site são de cunho ilustrativo e têm como propósito apenas direcionar os conteúdos discutidos. É importante ressaltar que os direitos de todas as imagens pertencem aos seus respectivos proprietários, que detêm o copyright e outras proteções legais sobre o seu uso. Caso você seja o detentor de alguma imagem e tenha preocupações sobre seu uso neste site, ou se desejar discutir questões relacionadas a direitos autorais, fique à vontade para entrar em contato pelo e-mail ao lado. Estou aberto ao diálogo e busco sempre respeitar os direitos dos criadores e artistas.
-            </p>
             <p class="footer-text" id="about" style="display: block;">
                 Meu nome é Miguel Teixeira Rodrigues e tenho 16 anos. Criei este blog, assim como seu código, para ter um espaço onde posso compartilhar meus interesses e hobbies. Meus interesses são variados, abrangendo desde literatura e cinema até tecnologia e ciências, e utilizo este site para expressar minha opinião sobre esses assuntos e ajudar quem busca informações. Espero que, ao explorar meus artigos, você encontre algo interessante que possa agregar à sua própria jornada. Estou sempre aberto a sugestões e comentários, pois a troca de ideias enriquece a todos. <br>
                 Obrigado pela visita! 
+            </p>
+            <p class="footer-text" id="direitos">
+                Todas as imagens utilizadas neste site são de cunho ilustrativo e têm como propósito apenas direcionar os conteúdos discutidos. É importante ressaltar que os direitos de todas as imagens pertencem aos seus respectivos proprietários, que detêm o copyright e outras proteções legais sobre o seu uso. Caso você seja o detentor de alguma imagem e tenha preocupações sobre seu uso neste site, ou se desejar discutir questões relacionadas a direitos autorais, fique à vontade para entrar em contato pelo e-mail ao lado. Estou aberto ao diálogo e busco sempre respeitar os direitos dos criadores e artistas.
+            </p>
+            <p class="footer-text" id="politicasDePrivacidade">
+                Este site utiliza cookies para coletar dados por meio do Google Analytics, com o objetivo de analisar o tráfego e entender o comportamento dos usuários, visando melhorar a experiência dos mesmos. As informações coletadas são anônimas e não identificam o visitante. Nenhum dado pessoal é solicitado ou armazenado por este site. Ao continuar navegando, você concorda com o uso de cookies. Conforme a LGPD (Lei Geral de Proteção de Dados), você pode entrar em contato para maior clareza dos dados obtidos. A transparência e a segurança no uso das informações são prioridades deste site.
+            </p>
+            <p class="footer-text" id="termosDeUso">
+                Este blog pessoal contém artigos de opinião e análise sobre assuntos de interesse do autor. Não é permitida a reprodução total ou parcial sem autorização. O conteúdo disponibilizado deve ser utilizado apenas para fins informativos e pessoais. O autor não se responsabiliza por decisões tomadas com base no conteúdo do site, nem por danos causados por sua utilização. Links externos são de responsabilidade dos respectivos sites. Os conteúdos e termos podem ser modificados a qualquer momento, sem aviso prévio. Em caso de dúvidas ou solicitações, favor entrar em contato por meio do e-mail fornecido na aba ao lado.
             </p>
             <div class="footer-text" id="contato">
                 <p>
