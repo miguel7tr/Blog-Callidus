@@ -57,7 +57,8 @@
     box-shadow: 0 4px 14px hsl(355deg 25% 15% / 10%);
     padding: 15px;
     border-radius: 0.5rem;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .hide{
     display: none;
