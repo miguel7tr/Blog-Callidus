@@ -8,16 +8,19 @@ gtag('config', 'G-WMH53GJ184');
     const links = document.querySelectorAll('.links');
     const paragrafos = document.querySelectorAll('.footer-text');
 
-    // adiciona evento de clique a cada link
-    links.forEach(link => {
-        link.addEventListener('click', function (event) {
+    for (let i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', function (event) {
             event.preventDefault();
 
-            links.forEach(l => l.classList.remove('active-link'));
+            for (let j = 0; j < links.length; j++) {
+                links[j].classList.remove('active-link')
+            }
             this.classList.add('active-link');
 
             // Paragrafos
-            paragrafos.forEach(p => p.style.display = 'none');
+            for (let j = 0; j < paragrafos.length; j++) {
+                paragrafos[j].style.display = 'none';
+            }
 
             const targetId = this.getAttribute('href').substring(1);
             const targetParagrafo = document.getElementById(targetId);
@@ -25,7 +28,7 @@ gtag('config', 'G-WMH53GJ184');
                 targetParagrafo.style.display = 'block';
             }
         });
-    });
+    }
 
 // - Email -
     const inputAssunto = document.getElementById('assunto');
