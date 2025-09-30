@@ -28,7 +28,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 1.5rem;
+    column-gap: 2rem;
     margin-top: 2rem !important;
 }
 .filter-item{
@@ -37,12 +37,20 @@
     cursor: pointer;
     background: var(--bg-color);
     color: var(--text-color);
-    padding: 4px 10px;
+    padding: 6px 12px;
+    border: none;
     border-radius: 5px;
 }
+.filter-item:hover{
+    background-color: var(--light-gray);
+    transition: 0.3s all linear;
+}
 .active-filter{
-    background: var(--second-color);
+    background-color: var(--second-color);
     color: var(--bg-color);
+}
+.active-filter:hover{
+    background-color: var(--second-color);
 }
 
 /* - Posts - */

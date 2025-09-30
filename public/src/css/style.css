@@ -147,7 +147,7 @@ header{
 }
 
 #body {
-    height: 60px;
+    height: 41px;
     width: 100%;
     resize: none;
     color: var(--text-color);

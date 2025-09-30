@@ -1,9 +1,23 @@
 [
   {
+    "id": 17,
+    "type": "filme",
+    "image": "o-projeto-adam-1.webp",
+    "altImage": "Um homem adulto e um garoto se encaram em uma floresta à noite, iluminados por uma lanterna, enquanto uma nave futurista paira no céu atrás das árvores.",
+    "category": "Filme",
+    "title": "O Projeto Adam: Reflexos do Tempo",
+    "date": "28-09-2025",
+    "description": "Nesse artigo, comentarei sobre o filme 'O Projeto Adam', lançado em 2022. É um ação com ficção científica onde Adam, volta no tempo e conhece seu eu do passado de doze anos, juntos eles buscam salvar a linha temporal.",
+    "profileImg": "eu_julho_2025.webp",
+    "fineLine": "à Netflix",
+    "pageTitle": "Reflexos do Tempo",
+    "content": "<p> Quem me conhece sabe (sempre quis dizer isso) que amo um bom filme com viagem no tempo, por isso hoje comentarei 'O Projeto Adam'. Direção por Shawn Levy, roteiro por Jonathan Tropper, T.S. Nowlin, Jennifer Flackett e Mark Levin, esse filme foi lançado em 2022 pela Netflix. Ele é do gênero ação com ficção científica, a viagem no tempo está muito presente na trama, tem um certo nível de comédia cômica e alguns momentos bem dramáticos.</p> <br> <p> Adam Reed, um piloto de 2050, rouba uma nave e viaja acidentalmente para 2022 em vez de 2018, que era seu objetivo. Devido ao acidente com a viagem, Adam acaba se ferindo e busca abrigo em sua antiga casa, onde encontra sua versão mais jovem com 12 anos. O encontro é confuso para ambos, mas Adam adulto revela uma verdade parcial, dizendo que veio de um futuro e sua missão é salvar a linha temporal que em seu tempo já está comprometida.</p> <br> <p> Aquela ironia de sempre em qualquer filme que o Ryan Reynolds interpreta a si mesmo, gosto dessa 'personalidade' debochada e irônica. Como disse antes, sou um amante de filmes com viagem no tempo e, nesse em específico é bem presente na trama. As lutas são bem coreografadas e o CGI foi produzido com cuidado, ótima qualidade técnica. Houveram momentos de drama ótimos, outros ficaram levemente forçados, mas nada ridículo (vale pontuar que drama não é o foco da obra).</p> <br> <p> Pule esse parágrafo caso não queira spoilers. Uma parte que bem engraçada e cômica, na minha opinião, foi quando Adam adulto fala para o Adam criança: 'Quando uma ideia ruim é a única ideia, ela vira uma ótima ideia'. Essa frase faz muito sentido, melhor tentar algo julgado como ruim que sequer arriscar uma tentativa. Agora falando um pouco sobre o clímax, sinceramente gostei bastante, o clímax foi bem construído e agradável, foi um final fechado, porém com margem para continuação (apesar de achar que não ocorrerá).</p> <br> <p> O filme não é espetacularmente admirável, o que não quer dizer que seja ruim. É um filme de ação e ficção científica que cumpre seu papel muito bem, mas nada além disso, não surpreendeu em nada. Tem ótimas lutas, CGI, qualidade técnica, roteiro e premissa, mas parece que faltou algo, o 'ingrediente secreto' pra fórmula ter seu efeito mais potente. Novamente Mark Ruffalo aparece em filmes que não esperava de forma alguma que participasse, ótimo ator, aliás.</p> <br> <p> Como já disse algumas vezes, o filme tem aspectos ótimos, e óbvio que o conjunto torna o filme ótimo também. Não tem nada tão mirabolante ou inovador, mas foi muito bem feito e escrito, se busca um filme de ação e ficção científica com viagem no tempo, assista que não vai se arrepender. Sendo sincero, a ideia de voltar no tempo é algo bem complexo mas gostei da forma que foi abordada no filme. Não sei se eu voltaria no tempo se pudesse, ao passo que poderia mudar minha vida, também poderia mudar minha vida. Não sei se ficou claro, mas acredito que o que faz com que sejamos nós mesmos seja aquilo passamos, pensamos e sentimos. Apesar de tudo seria interessante conhecer o meu eu mais jovem, ou será mais velho? Agradeço pela atenção e até uma próxima!</p>"
+  },
+  {
     "id": 16,
     "type": "filme",
     "image": "ilha-do-medo-1.webp",
-    "altImage": "Dois homens de sobretudo e chapéu, vistos de baixo contra um céu nublado, com expressões sérias e postura firme. ",
+    "altImage": "Dois homens de sobretudo e chapéu, vistos de baixo contra um céu nublado, com expressões sérias e postura firme.",
     "category": "Filme",
     "title": "Ilha do Medo: Ecos da Realidade",
     "date": "19-09-2025",
